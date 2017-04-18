@@ -5,7 +5,7 @@
 #
 
 # Inherit from sdm845-common
--include device/xiaomi/sdm845-common/BoardConfigCommon.mk
+include device/xiaomi/sdm845-common/BoardConfigCommon.mk
 
 BUILD_BROKEN_DUP_RULES := true
 
@@ -38,4 +38,4 @@ BOARD_SEPOLICY_DIRS += \
     $(DEVICE_PATH)/sepolicy/vendor
 
 # Inherit from the proprietary version
--include vendor/xiaomi/dipper/BoardConfigVendor.mk
+include vendor/xiaomi/dipper/BoardConfigVendor.mk
