@@ -108,3 +108,7 @@ PRODUCT_PACKAGES += \
 # Secure element
 PRODUCT_PACKAGES += \
     SecureElement
+
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/nxp/opensource/pn5xx
