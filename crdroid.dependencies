@@ -2,5 +2,9 @@
   {
     "repository": "crdroidandroid/android_device_xiaomi_dipper-common",
     "target_path": "device/xiaomi/dipper-common"
+  },
+  {
+    "repository": "crdroidandroid/proprietary_vendor_xiaomi_dipper",
+    "target_path": "vendor/xiaomi/dipper"
   }
 ]
